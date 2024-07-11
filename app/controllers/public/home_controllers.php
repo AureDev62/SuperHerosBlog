@@ -1,5 +1,5 @@
 <?php
 function home()
 {
-    require_once('./app/views/home.php');
+    require_once('./app/views/public/home.php');
 }

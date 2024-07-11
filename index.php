@@ -24,6 +24,21 @@ if (isset($_GET['page'])) {
         case 'contact':
             contact();
             break;
+        case 'admin':
+            admin();
+            break;
+
+        case 'admin_users':
+            admin_users();
+            break;
+
+        case 'admin_articles':
+            admin_articles();
+            break;
+
+        case 'admin_commentaires':
+            admin_commentaires();
+            break;
 
 
         default:

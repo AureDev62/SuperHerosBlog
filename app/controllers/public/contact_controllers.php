@@ -2,5 +2,5 @@
 
 function contact()
 {
-    require_once('./app/views/contact.php');
+    require_once('./app/views/public/contact.php');
 }

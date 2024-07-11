@@ -5,6 +5,7 @@
             <li><a href="index.php?page=signup">Inscription</a></li>
             <li><a href="index.php?page=signin">Connexion</a></li>
             <li><a href="index.php?page=contact">Contact</a></li>
+            <li><a href="index.php?page=admin">Admin</a></li>
         </ul>
     </nav>
     <section class="hero">

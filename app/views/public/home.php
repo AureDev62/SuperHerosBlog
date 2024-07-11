@@ -16,4 +16,4 @@ ob_start();
 
 $content = ob_get_clean();
 
-require_once('../../www/SuperHerosBlog/app/views/templates/default.php');
+require_once('./app/views/templates/default.php');

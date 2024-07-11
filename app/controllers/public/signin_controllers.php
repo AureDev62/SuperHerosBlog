@@ -1,5 +1,5 @@
 <?php
 function signin()
 {
-    require_once('./app/views/auth/signin.php');
+    require_once('./app/views/public/auth/signin.php');
 }

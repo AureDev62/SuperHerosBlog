@@ -1,5 +1,5 @@
 <?php
 function signup()
 {
-    require_once('./app/views/auth/signup.php');
+    require_once('./app/views/public/auth/signup.php');
 }
