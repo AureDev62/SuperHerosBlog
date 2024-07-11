@@ -11,9 +11,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="">Accueil</a></li>
-                <li><a href="">Connexion</a></li>
-                <li><a href="">Inscription</a></li>
+                <li><a href="/SuperHerosBlog/">Accueil</a></li>
+                <li><a href="/SuperHerosBlog/sign/signin.php">Connexion</a></li>
+                <li><a href="/SuperHerosBlog/sign/signup.php">Inscription</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
