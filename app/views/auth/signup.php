@@ -1,8 +1,14 @@
-<?php include("../components/header.php"); ?>
+<?php
+
+$page_title = "S'inscrire";
+
+ob_start();
+
+?>
 
 
 <main>
-    <h1>Connexion</h1>
+    <h2>Formulaire d'inscription</h2>
     <form action="" method="post">
         <div>
             <label for="pseudo">Votre Pseudo</label>
@@ -28,4 +34,9 @@
     </form>
 </main>
 
-<?php include("../components/footer.php"); ?>
+<?php
+
+
+$content = ob_get_clean();
+
+require_once('./app/views/templates/default.php');

@@ -1,24 +1,35 @@
-<?php include('./components/header.php'); ?>
+<?php
 
-<main>
-    <h2>Les derniers articles</h2>
-    <ul>
-        <li><a href="">
-                <img src="" alt="Article1">
-                <h3>Titre de l'article 1</h3>
-            </a>
-        </li>
-        <li><a href="">
-                <img src="" alt="Article2">
-                <h3>Titre de l'article 2</h3>
-            </a>
-        </li>
-        <li><a href="">
-                <img src="" alt="Article3">
-                <h3>Titre de l'article 3</h3>
-            </a>
-        </li>
-    </ul>
-</main>
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 
-<?php include('./components/footer.php'); ?>
+
+require_once('./app/controllers/_main_controllers.php');
+
+
+if (isset($_GET['page'])) {
+    switch ($_GET['page']) {
+        case 'home':
+            home();
+            break;
+
+        case 'signin':
+            signin();
+            break;
+
+        case 'signup':
+            signup();
+            break;
+
+        case 'contact':
+            contact();
+            break;
+
+
+        default:
+            home();
+            break;
+    }
+} else {
+    home();
+}
